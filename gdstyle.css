@@ -1,0 +1,75 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    min-height: 854px;
+    background-color: #2b2b2b;
+    background-image: url("https://64.media.tumblr.com/7f7e866236fe08fd1254eda4a001ac3b/tumblr_n6g79vu11x1svm5p0o1_1280.jpg");
+    background-size: cover;
+  }
+  
+.apresentacao{
+  text-align: center;
+  padding: 45px;
+  height: 300vh;
+  max-width: 800px;
+  background-color: #000000;
+  border: 1px;
+  border-radius: 10px;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;    
+}
+  
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+ }
+
+.texto {
+  color: #ffffff;
+  margin-top: 40px;
+  inline-size: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+
+img {
+  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 300px;
+  heigth: 300px;
+  }
+	
+  .entrada input {
+  width: 180px;
+  margin-top: 30px;
+  padding: 10px 15px; 
+  border-radius: 5px;
+}
+
+.entrada button {
+  width: 60px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 0;
+  color: #000000;
+  background: #BFBFBF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resultado {
+  color: #ffffff;
+  margin-top: 40px;
+  inline-size: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
