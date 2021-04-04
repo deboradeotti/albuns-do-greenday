@@ -1,0 +1,58 @@
+function buscar() {
+  var resposta = document.querySelector('#ano')
+  var ano = resposta.value
+  
+  if (ano == "1990"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O 1,039/Smoothed Out Slappy Hours!</h2>" + "<img src=https://images-na.ssl-images-amazon.com/images/I/81bzD27s-FL._SX425_.jpg>" + "<p> 1,039/Smoothed Out Slappy Hours é uma coletânea musical de gravações antigas da banda de punk rock Green Day. Apesar de ser referido como o primeiro álbum do grupo, seu verdadeiro primeiro álbum foi 39/Smooth, enquanto que 1,039/Smoothed Out Slappy Hours inclui aquele álbum inteiro, assim como dois EP (1,000 Hours e Slappy) e uma faixa de outro álbum de compilação.<br /><br />Ouça o álbum completo abaixo:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/3tSSNahGRJE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "1991"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Kerplunk!</h2>" + "<img src=https://images-na.ssl-images-amazon.com/images/I/71P95vTtvfL._AC_SY355_.jpg>" + "<p>O Kerplunk foi o segundo álbum de estúdio lançado pelo Green Day, e o primeiro com a formação clássica, contando com Tré Cool na bateria. Foi muito bem recebido pelo público e pela crítica, o que fez com que a banda fosse notada por gravadoras maiores. O resultado veio na forma de um contrato com a major Reprise Records. <br /><br />Kerplunk é, até hoje, um dos queridinhos dos fãs. Ouça abaixo:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/5VjKz_E6pNY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "1994"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Dookie!</h2>" + "<img src=https://upload.wikimedia.org/wikipedia/pt/b/b2/Green_Day_-_Dookie.jpg>" + "<p>Em 1994, Dookie chegou às lojas no primeiro dia de fevereiro e não demorou a tomar os primeiros lugares nas paradas musicais de rock moderno da Billboard com os singles When I Come Around, Basket Case e Longview. O álbum vendeu mais de 20 milhões de cópias ao redor do mundo e trouxe, em essência, quase 40 minutos de letras sarcásticas e pessoais aliadas a um som empolgante com bateria acelerada e vocais cativantes, fáceis de assobiar. Devido a sua explosão de popularidade, se tornou um clássico dos anos 90, consagrado no número 50 da lista que contém os 200 álbuns definitivos no Rock and Roll Hall of Fame, além de ter levado o Grammy de Melhor Álbum de Música Alternativa em 1995.<br /><br />Assista o clipe do single When I Come Around:<br /><br />" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/i8dh9gDzmz8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "1995"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Insomniac!</h2>" + "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACnYH7ox_CzioyyhLdc7BHr7-9JF-9rds2kK1D4EL7s1un2_pnAv-i-OhAX5hXvDl8jU&usqp=CAU>" + "<p>Insomniac é o quarto álbum de estúdio do Green Day, lançado em 10 de outubro de 1995 pela Reprise Records. O álbum trouxe um tom ligeiramente mais obscuro e pesado, letras mais pessimistas e uma sonoridade mais agressiva que Dookie, o que fez com que não obtesse tanto sucesso com o público mainstream quanto o antecessor. Apesar disso,  manteve a banda em alta, foi multiplatinado, rendeu diversos hits e é um dos favoritos dos fãs.<br /><br />Assista ao clipe de Brain Stew/Jaded:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/UNq9gmY_Oz4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "1997"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Nimrod!</h2>" + "<img src=https://otto10.fr/images/b10/66/66301-green-day-nimrod.jpg>" + "<p>Em seu quinto álbum, o Green Day ousou sair de sua zona de conforto, rompeu um pouco com o punk que reinava soberano até então e deu início a algumas experimentações. Nimrod é claramente um disco de transição, marcando a volta do trio ao mainstream com os hits Hitchin’ A Ride, Nice Guys Finish Last e Time Of Your Life. Foi o pontpé inicial de uma mudança sonora pela qual a banda passou nos discos seguintes, e que dividiu opiniões entre os fãs.<br /><br />De qualquer forma, não deixa de ser um ótimo álbum! Assista ao clipe de Nice Guys Finish Last:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/1nDq1HoNm-E' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "2000"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Warning!</h2>" + "<img src=https://images-na.ssl-images-amazon.com/images/I/81sVKwzutJL._AC_SL1450_.jpg>" + "<p>Talvez o álbum mais surpreendente da carreira do Green Day, Warning, apesar de na época não ter feito tanto sucesso quanto os álbuns anteriores, hoje é considerado a pérola obscura da discografia da banda. Muito mais tranquilo que tudo que fizeram até então, é um álbum descolado de canções simples fortemente influenciadas pela folk music, com uma sonoridade predominantemente acústica, e mesmo nos momentos mais rápidos, a distorção é usada com moderação. Em suas faixas, com certeza ouvimos muito mais pop rock do que o pop punk que consagrou a banda, mas não deixa de ser um disco muito bom, com letras sempre brilhantes!<br /><br />Assista ao clipe da faixa que dá nome ao álbum:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/eebfMFzJHNs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "2004"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O American Idiot!</h2>" + "<img src=https://images-na.ssl-images-amazon.com/images/I/71Z0rLIvpuL._AC_SX466_.jpg>" + "<p>Em 2004, o power trio chocou o mundo ao quebrar seus próprios padrões e lançar a ópera-rock American Idiot, um disco carregado de críticas explícitas ao governo Bush, contadas através dos devaneios de um personagem punk alcunhado de Jesus of Suburbia, que transborda desilusão e audácia, com forte sátira social.<br />O álbum foi Vencedor do Grammy de melhor álbum de rock em 2004 e foi o trabalho que carimbou o passaporte do Green Day para o Rock and Roll Hall of Fame. American Idiot consegue ser uma obra atemporal ao mesmo tempo que é intrinsicamente ligada ao fatídico 11 de Setembro e suas consequencias na sociedade america. É inegável a sua qualidade e sua importância para a história do rock.<br /><br />Assista ao clipe da faixa-título e principal single:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/Ee_uujKuJMI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "2009"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O 21st Century Breakdown!</h2>" + "<img src=https://images-na.ssl-images-amazon.com/images/I/81oXCKIWJLL._AC_SX522_.jpg>" + "<p>Em 2009, o Green Day foi capaz de entender o sentimento de confusão e impotência presente na sociedade americana, que acabava de sair do conturbado governo Bush, e transformar em arte. O álbum conquistou um Grammy e estreou em primeiro lugar nas paradas em 14 países, mas, por outro lado, teve seu impacto reduzido por não apresentar nenhum avanço em comparação com seu brilhante antecessor, American Idiot. Apesar disso, não deixa de ser mais um trabalho incrível do trio.<br /><br />Assista ao clipe da faixa-título:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/D4ZKlT1EvCA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "2012"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! Na verdade, três: o ¡Uno!, o ¡Dos! e o ¡Tré!</h2>" + "<img src=https://http2.mlstatic.com/D_NQ_NP_14337-MLB3891669537_022013-O.jpg>" + "<p>Em 2012, o Green Day decidiu inovar e lançou três álbuns de estúdio em sequência, em menos de três meses, uma façanha ambiciosa. A trilogia, que recebeu o nome de “¡Uno!”, “¡Dos! e “¡Tré!”, foi tida como uma volta às raízes, mas não agradou muito à crítica e ao público, sendo considerada por muitos o ponto baixo da carreira da banda. Mesmo assim, possui algumas faixas que merecem destaque.<br /><br />Assista ao clipe de Stray Heart, presente no segundo álbum da trilogia:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/sN0b-adUt9I' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "2016"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Revolution Radio!</h2>" + "<img src=https://escutaessareview.com.br/wp-content/uploads/2016/09/green-day-revolution-radio.jpg>" + "<p>Definido por boa parte da crítica especializada como um retorno ao tempo em que o Green Day fazia canções mais rápidas e diretas, Revolution Radio veio apostando no mais básico. O álbum conta com boas canções pop-punk e prova que a banda sabe escrever hits, como Revolution Radio e Too Dumb to Die.<br /><br />Assista ao clipe da faixa-título:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/B4zc-f0TIZ4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (ano == "2020"){
+    document.querySelector(".resultado").innerHTML = "<h2>Sim! O Father of All Motherfuckers!</h2>" + "<img src=https://images-na.ssl-images-amazon.com/images/I/81hPJ3SEIeL._AC_SL1500_.jpg>" + "<p>Aos 34 anos de carreira, o Green Day lançou seu décimo terceiro álbum, em fevereiro de 2020. Nele, a banda passou a adotar um som mais pop do que nunca, fazendo algo bastante experimental e provando de uma vez por todas que não tem medo de mudar totalmente a fórmula, mesmo que isso desagrade os fãs mais conservadores.<br /><br />Assista ao clipe da faixa-título:<br /><br /></p>" + "<iframe width='560' height='315' src='https://www.youtube.com/embed/eXv00PJ9IQM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+  }
+  
+  else if (parseInt(ano) < 2020 && parseInt(ano) > 1990) {
+    document.querySelector(".resultado").innerHTML = "<h2>Não!</h2>" + "<img src=https://i.pinimg.com/564x/33/c6/ac/33c6ac623963c3bc4e5fd13edc76f861.jpg>"
+  }
+  
+  else{
+    document.querySelector(".resultado").innerHTML = "<h2>Opção inválida</h2>" + "<img src=https://i.pinimg.com/564x/a8/76/fe/a876fea2450d36d9f38c6db1b06f1294.jpg>"
+  }
+  
+  resposta.value = ""
+}
